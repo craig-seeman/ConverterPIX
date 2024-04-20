@@ -24,4 +24,8 @@
 
 Optional<String> extractExtension(const String &filePath);
 
+String removeExtension( const String &filePath );
+
+bool startsWith( const String &s, const String &prefix );
+
 /* eof */
